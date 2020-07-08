@@ -54,19 +54,20 @@ $openid->on_success = function ($steamid) {
 on_cancel is called when mode returned by OpenID equals `cancel`, this should typically never happen.
 
 ```
-$openid->on_success = function ($steamid) {
-  $_SESSION["steamid"] = $steamid;
+$openid->on_cancel = function () {
+  return header("Location: /cancelled");
 };
 ```
 
 
-### on_exception(Exception $e)
+### on_exception(Exception $eexception)
 
 on_exception is called when (for some reason) an exception is thrown during the process.
 
 ```
-$openid->on_success = function ($steamid) {
-  $_SESSION["steamid"] = $steamid;
+$openid->on_exception = function ($exception) {
+  print $exception->getMessage();
+  exit;
 };
 ```
 
