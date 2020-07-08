@@ -1,8 +1,8 @@
 # SteamAuth
-This library allows Steam users to log in your site and it is made to just do only that. You need to add your own [anonymous functions](https://www.php.net/manual/en/functions.anonymous.php) when calling the class. Which is `on_success($steamid)` and `on_cancel`.
+This library allows Steam users to log in your site and it is made to just do only that. You need to add your own [anonymous functions](https://www.php.net/manual/en/functions.anonymous.php).
 
 ## Why?
-The goal of this library is to _only_ add the functionality to  allow users with a Steam account to log into your website, you control the rest.
+The goal of this library is to _only_ add the functionality to allow users with a Steam account to log into your website, you control the rest.
 
 ## Example usage
 
