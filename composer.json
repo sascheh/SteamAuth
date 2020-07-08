@@ -1,0 +1,29 @@
+{
+    "name": "sascheh/steam-auth",
+    "description": "Allow users to log in with their Steam account.",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    
+    "authors": [
+        {
+            "name": "Sascha 'sascheh' Ehrl",
+            "email": "sascha@ramune.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "keywords": [
+        "steam",
+        "steam auth",
+        "steam authentication",
+        "steam login"
+    ]
+}
