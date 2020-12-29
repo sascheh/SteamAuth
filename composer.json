@@ -19,7 +19,7 @@
             "": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "keywords": [
         "steam",
         "steam auth",
